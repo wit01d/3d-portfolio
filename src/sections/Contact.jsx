@@ -61,7 +61,7 @@ const Contact = () => {
                     name="name"
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="Artificial Biochain Networks Systems"
+                    placeholder="Your name here"
                     required
                   />
                 </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                     name="email"
                     value={form.email}
                     onChange={handleChange}
-                    placeholder="Artificial@BiochainNetworks.Systems"
+                    placeholder="Your email here"
                     required
                   />
                 </div>

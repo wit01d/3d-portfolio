@@ -1,38 +1,38 @@
 const navLinks = [
   {
-    name: "Solutions",
-    link: "#solutions",
+    name: "Work",
+    link: "#work",
   },
   {
-    name: "Technology",
-    link: "#technology",
+    name: "Experience",
+    link: "#experience",
   },
   {
-    name: "Research",
-    link: "#research",
+    name: "Skills",
+    link: "#skills",
   },
   {
-    name: "Partners",
-    link: "#partners",
+    name: "Testimonials",
+    link: "#testimonials",
   },
 ];
 
 const words = [
-  { text: "DNA Data", imgPath: "/images/ideas.svg" },
-  { text: "Genomics", imgPath: "/images/concepts.svg" },
-  { text: "Biotech", imgPath: "/images/designs.svg" },
-  { text: "Blockchain", imgPath: "/images/code.svg" },
-  { text: "DNA Data", imgPath: "/images/ideas.svg" },
-  { text: "Genomics", imgPath: "/images/concepts.svg" },
-  { text: "Biotech", imgPath: "/images/designs.svg" },
-  { text: "Blockchain", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Genomic datasets secured" },
-  { value: 1000, suffix: "~", label: "Biotech transactions" },
-  { value: 25, suffix: "+", label: "Research partnerships" },
-  { value: 99, suffix: "%", label: "Data integrity rate" },
+  { value: 15, suffix: "+", label: "Years of Experience" },
+  { value: 200, suffix: "+", label: "Satisfied Clients" },
+  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -74,71 +74,71 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Immutable security",
-    desc: "Protecting genomic data with cryptographic security and decentralized storage solutions.",
+    title: "Quality Focus",
+    desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Transparent research",
-    desc: "Enabling verifiable research collaboration through blockchain-based data provenance.",
+    title: "Reliable Communication",
+    desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
     imgPath: "/images/time.png",
-    title: "Scalable networks",
-    desc: "Building distributed systems that handle massive biological datasets efficiently.",
+    title: "On-Time Delivery",
+    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
 ];
 
 const techStackImgs = [
   {
-    name: "Blockchain Developer",
+    name: "React Developer",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Bioinformatics Engineer",
+    name: "Python Developer",
     imgPath: "/images/logos/python.svg",
   },
   {
-    name: "Network Architect",
+    name: "Backend Developer",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Data Scientist",
+    name: "Interactive Developer",
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Research Coordinator",
+    name: "Project Manager",
     imgPath: "/images/logos/git.svg",
   },
 ];
 
 const techStackIcons = [
   {
-    name: "Blockchain Developer",
+    name: "React Developer",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Bioinformatics Engineer",
+    name: "Python Developer",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Network Architect",
+    name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Data Scientist",
+    name: "Interactive Developer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Research Coordinator",
+    name: "Project Manager",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -148,41 +148,41 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "BioChain Networks revolutionized our genomic data management with their secure blockchain infrastructure. Their platform enabled us to share research data safely across institutions while maintaining full data sovereignty.",
+      "Artificial Biochain Network Systems brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Lead Blockchain Engineer",
+    title: "Frontend Developer",
     date: "January 2023 - Present",
     responsibilities: [
-      "Developed distributed ledger systems for secure genomic data sharing.",
-      "Implemented smart contracts for automated research data licensing.",
-      "Optimized consensus mechanisms for high-throughput biological datasets.",
+      "Developed and maintained user-facing features for the Hostinger website.",
+      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+      "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
     review:
-      "BioChain Networks delivered a robust decentralized platform that transformed how we handle sensitive biological research data. Their expertise in both blockchain technology and bioinformatics is unmatched.",
+      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Senior Bioinformatics Developer",
+    title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
-      "Built scalable bioinformatics pipelines on distributed computing networks.",
-      "Integrated IPFS storage solutions with genomic analysis workflows.",
-      "Developed APIs for secure cross-institutional data collaboration.",
+      "Led the development of Docker's web applications, focusing on scalability.",
+      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+      "Contributed to open-source projects that were used with the Docker ecosystem.",
     ],
   },
   {
     review:
-      "BioChain Networks created an innovative mobile platform that democratized access to genomic research tools. Their solution bridges the gap between complex biotechnology and user-friendly interfaces.",
+      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "Biotech Platform Developer",
+    title: "React Native Developer",
     date: "March 2019 - May 2020",
     responsibilities: [
-      "Designed mobile applications for genomic data visualization and analysis.",
-      "Implemented privacy-preserving computation protocols for sensitive data.",
-      "Collaborated with research teams to develop user-centric biotech tools.",
+      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+      "Improved app performance and user experience through code optimization and testing.",
+      "Coordinated with the product team to implement features based on feedback.",
     ],
   },
 ];
@@ -204,45 +204,45 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Dr. Sarah Chen",
-    mentions: "@drsarahchen",
+    name: "Esther Howard",
+    mentions: "@estherhoward",
     review:
-      "BioChain Networks transformed our research capabilities by providing a secure, decentralized platform for genomic data sharing. Their blockchain infrastructure ensures data integrity while enabling unprecedented collaboration across our global research network.",
+      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Prof. Michael Roberts",
-    mentions: "@profroberts",
+    name: "Wade Warren",
+    mentions: "@wadewarren",
     review:
-      "Working with BioChain Networks has been transformative for our biotechnology research. Their platform seamlessly integrates blockchain security with bioinformatics workflows, creating a new standard for scientific data management.",
+      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
-    name: "Dr. Emily Watson",
-    mentions: "@emilywatsonmd",
+    name: "Guy Hawkins",
+    mentions: "@guyhawkins",
     review:
-      "BioChain Networks delivered an exceptional solution that revolutionized how we handle sensitive genomic data. Their commitment to both security and scientific integrity makes them the ideal partner for cutting-edge biotech research.",
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Dr. James Liu",
-    mentions: "@drjamesliu",
+    name: "Marvin McKinney",
+    mentions: "@marvinmckinney",
     review:
-      "BioChain Networks created a robust platform that streamlined our multi-institutional research collaboration. Their blockchain-based data provenance system ensures transparency while maintaining the highest security standards.",
+      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
-    name: "Dr. Lisa Anderson",
-    mentions: "@drlisaanderson",
+    name: "Floyd Miles",
+    mentions: "@floydmiles",
     review:
-      "BioChain Networks expertise in decentralized biotechnology is remarkable. They delivered a scalable solution that handles our massive genomic datasets while ensuring complete data sovereignty and research reproducibility.",
+      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Prof. David Kim",
-    mentions: "@profdavidkim",
+    name: "Albert Flores",
+    mentions: "@albertflores",
     review:
-      "BioChain Networks exceeded our expectations by creating a platform that bridges blockchain technology with practical bioinformatics applications. Their solution enables secure, verifiable research that advances our understanding of genomics.",
+      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
